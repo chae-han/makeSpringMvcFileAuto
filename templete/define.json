@@ -1,0 +1,73 @@
+{
+    "functionName" : {
+        "controller" : {
+                "requestParamObjects" : [
+                    {
+                        "typeInfo(int, myVo ...etc)" : "int",
+                        "variableName" : "name"
+                    },
+                    {
+                        "typeInfo(int, myVo ...etc)" : "int",
+                        "variableName" : "name"
+                    }
+                ],
+
+                "reponseFieldObjects" : [
+                    {
+                        "typeInfo(int, myVo ...etc)" : "int",
+                        "variableName" : "name"
+                    },
+                    {
+                        "typeInfo(int, myVo ...etc)" : "int",
+                        "variableName" : "name"
+                    }
+                ]
+        },
+        "service" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ]
+        },
+        "repository" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ]
+        }
+    }
+}
