@@ -59,39 +59,6 @@ class ContentDirector:
 
                     # write
                     f.write(fileData)
-                    '''
-                    with open(self.newFilPathFile, 'r+') as f:
-                        while True:
-                            line = f.readline()
-                            if not line:
-                                break
-                            print(line)
-                            # replace [classNameFirstUpper] to self.classNameFirstUpper
-                            if '[classNameFirstUpper]' in line:
-                                line = line.replace('[classNameFirstUpper]', self.classNameFirstUpper)
-                                #f.write(line.replace('[classNameFirstUpper]', self.classNameFirstUpper))
-
-                            # replace [classNameLower] to self.classNameLower
-                            if '[classNameLower]' in line:
-                                line = line.replace('[classNameLower]', self.classNameLower)
-                                # f.write(line.replace('[classNameLower]', self.classNameLower))
-
-
-                            # replace [Content] to real content
-                            if '[content]' in line:
-                                print("content")
-                                functionsList = list(self.jsonFuncSpec.keys())
-                                contentText = ''
-
-                                for functionName in functionsList:
-                                    contentText += self.makeFunctionTemplete(self.jsonFuncSpec[functionName][self.mvcOption])
-
-                                line = line.replace('[content]', contentText)
-
-                            print(line)
-                            f.writelines(line)
-                    return content
-                    '''
 
         except:
             return []
