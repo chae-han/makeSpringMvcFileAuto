@@ -1,0 +1,117 @@
+{
+    "testFunction" : {
+        "controller" : {
+                "requestParamObjects" : [
+                    {
+                        "typeInfo" : "int",
+                        "variableName" : "count"
+                    },
+                    {
+                        "typeInfo" : "RequestModel",
+                        "variableName" : "requestModel"
+                    }
+                ],
+
+                "reponseFieldObjects" : [
+                    {
+                        "typeInfo" : "List<ResponseModel>"
+                    }
+                ]
+        },
+        "service" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int"
+                }
+            ]
+        },
+        "repository" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int"
+                }
+            ]
+        }
+    }
+    ,
+    "test2Function" : {
+        "controller" : {
+                "requestParamObjects" : [
+                    {
+                        "typeInfo" : "int",
+                        "variableName" : "count"
+                    },
+                    {
+                        "typeInfo" : "RequestModel",
+                        "variableName" : "requestModel"
+                    }
+                ],
+
+                "reponseFieldObjects" : [
+                    {
+                        "typeInfo" : "List<ResponseModel>"
+                    }
+                ]
+        },
+        "service" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int"
+                }
+            ]
+        },
+        "repository" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int"
+                }
+            ]
+        }
+    }
+
+
+}

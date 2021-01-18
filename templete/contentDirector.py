@@ -8,7 +8,7 @@ class ContentDirector:
         self.classNameLower = classNameLower
         self.classNameFirstUpper = classNameLower.capitalize()
 
-        self.contentBuilder = contentBuilder;
+        self.contentBuilder = contentBuilder
         self.jsonFuncSpec = jsonFunctionSpecification
 
         self.mvcOption = mvcOption
@@ -26,8 +26,8 @@ class ContentDirector:
     def copyTempleteFile(self):
         shutil.copyfile(self.templetePathFile, self.newFilPathFile)
 
-    def makeFunctionTemplete(self, functionSpecObject):
-        functionText = self.contentBuilder.makeFunction(functionSpecObject)
+    def makeFunctionTemplete(self, functionName, functionSpecObject):
+        functionText = self.contentBuilder.makeFunction(functionName, functionSpecObject)
         return functionText
 
     def makeContent(self):
@@ -37,6 +37,7 @@ class ContentDirector:
             # copy [mvc]Templete.java as dir/[self.classNameFirstUpper][Mvc].java
             # self.copyTempleteFile()
             # read [self.classNameFirstUpper][Mvc].java file as text
+            print(self.templetePathFile)
 
             with open(self.newFilPathFile, 'w') as f:
                 with open(self.templetePathFile, 'r') as r:
@@ -53,7 +54,7 @@ class ContentDirector:
                     contentText = ''
                     
                     for functionName in functionsList:
-                        contentText += self.makeFunctionTemplete(self.jsonFuncSpec[functionName][self.mvcOption])
+                        contentText += self.makeFunctionTemplete(functionName, self.jsonFuncSpec[functionName][self.mvcOption])
 
                     fileData = fileData.replace('[content]', contentText)
 

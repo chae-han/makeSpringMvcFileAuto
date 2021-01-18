@@ -1,0 +1,58 @@
+{
+    "functionName" : {
+        "controller" : {
+                "requestParamObjects" : [
+                    {
+                        "typeInfo(int, myVo ...etc)" : "int",
+                        "variableName" : "name"
+                    },
+                    {
+                        "typeInfo(int, myVo ...etc)" : "int",
+                        "variableName" : "name"
+                    }
+                ],
+
+                "reponseFieldObjects" : [
+                    {
+                        "typeInfo(int, myVo ...etc)" : "int"
+                    }
+                ]
+        },
+        "service" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                }
+            ]
+        },
+        "repository" : {
+            "requestParamObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                },
+                {
+                    "typeInfo(int, myVo ...etc)" : "int",
+                    "variableName" : "name"
+                }
+            ],
+
+            "reponseFieldObjects" : [
+                {
+                    "typeInfo(int, myVo ...etc)" : "int"
+                }
+            ]
+        }
+    }
+}
